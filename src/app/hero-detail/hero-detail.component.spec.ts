@@ -1,24 +1,32 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+// import { ComponentFixture, TestBed } from '@angular/core/testing';
+// import { HttpClientModule } from '@angular/common/http';
+// import { ActivatedRoute } from '@angular/router';
+// import { HeroDetailComponent } from './hero-detail.component';
 
-import { HeroDetailComponent } from './hero-detail.component';
+// describe('HeroDetailComponent', () => {
+//   let component: HeroDetailComponent;
+//   let fixture: ComponentFixture<HeroDetailComponent>;
+//   const mockActivatedRoute = {
+//     close: jasmine.createSpy('close'),
+//   };
+//   beforeEach(async () => {
+//     await TestBed.configureTestingModule({
+//       imports: [HttpClientModule],
+//       declarations: [HeroDetailComponent],
+//       providers: [
+//         {
+//           provide: ActivatedRoute,
+//           useValue: mockActivatedRoute,
+//         },
+//       ],
+//     }).compileComponents();
 
-describe('HeroDetailComponent', () => {
-  let component: HeroDetailComponent;
-  let fixture: ComponentFixture<HeroDetailComponent>;
+//     fixture = TestBed.createComponent(HeroDetailComponent);
+//     component = fixture.componentInstance;
+//     fixture.detectChanges();
+//   });
 
-  beforeEach(async () => {
-    await TestBed.configureTestingModule({
-      declarations: [ HeroDetailComponent ]
-    })
-    .compileComponents();
-
-    fixture = TestBed.createComponent(HeroDetailComponent);
-    component = fixture.componentInstance;
-    fixture.detectChanges();
-  });
-
-  it('should create', () => {
-    expect(component).toBeTruthy();
-  });
-});
-
+//   it('should create', () => {
+//     expect(component.getHero).toBeDefined();
+//   });
+// });
